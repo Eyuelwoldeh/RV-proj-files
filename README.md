@@ -29,7 +29,8 @@ All custom parts are designed using OpenSCAD. Example:
 ```C++
 // Example OpenSCAD code for a simple wheel 
 difference() { 
-    cylinder(h=10, d=50); cylinder(h=12, d=10, center=true); 
+    cylinder(h=10, d=50); 
+    cylinder(h=12, d=10, center=true); 
     }
 ```
 
